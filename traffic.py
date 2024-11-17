@@ -149,7 +149,7 @@ if file is None:
     st.write("## Predicting Traffic Volume...")
 
     # Display results using metric card
-    st.metric(label = "Predicted Traffic Volume", value = f"{pred_value :.0f}")
+    st.metric(label = "Hourly I-94 ATR 301 reported westbound traffic volume", value = f"{pred_value :.0f}")
     st.write(f"With a {(1 - alpha)* 100:.0f}% confidence interval:")
     st.write(f"**Confidence Interval**: [{lower_limit:.2f}, {upper_limit:.2f}]")
 
