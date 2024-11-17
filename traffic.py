@@ -66,7 +66,7 @@ with st.sidebar.expander('Option 1: Upload CSV file', expanded=False):
     
 # Option 2: Asking users to input their data using a form in the sidebar
 with st.sidebar.expander('Option 2: Fill out form', expanded=False):
-    st.header("Enter Your Diamond Details")
+    st.header("Enter Your Details")
     
     with st.form('user_inputs_form'):
 
